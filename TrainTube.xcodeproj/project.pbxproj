@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		44449D892557BF220085B1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44449D872557BF220085B1BB /* Main.storyboard */; };
 		44449D8B2557BF240085B1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44449D8A2557BF240085B1BB /* Assets.xcassets */; };
 		44449D8E2557BF240085B1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44449D8C2557BF240085B1BB /* LaunchScreen.storyboard */; };
+		44620E112557C3990066EA63 /* YouTubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44620E102557C3990066EA63 /* YouTubeData.swift */; };
+		44620E152557C49B0066EA63 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44620E142557C49B0066EA63 /* TitleViewController.swift */; };
+		44620E1D2557C6620066EA63 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44620E1C2557C6620066EA63 /* WebViewController.swift */; };
+		44620E222557C7380066EA63 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44620E212557C7380066EA63 /* TableViewController.swift */; };
+		EBA6D90092D34B5F08C62B6A /* Pods_TrainTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455267C0BFC293BBF5CA6E92 /* Pods_TrainTube.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16A80102EE8D99C27BCFC424 /* Pods-TrainTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainTube.debug.xcconfig"; path = "Target Support Files/Pods-TrainTube/Pods-TrainTube.debug.xcconfig"; sourceTree = "<group>"; };
+		2BE83EDA40BDE4438DD6A061 /* Pods-TrainTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainTube.release.xcconfig"; path = "Target Support Files/Pods-TrainTube/Pods-TrainTube.release.xcconfig"; sourceTree = "<group>"; };
 		44449D7E2557BF220085B1BB /* TrainTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44449D812557BF220085B1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44449D832557BF220085B1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -23,7 +30,12 @@
 		44449D882557BF220085B1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44449D8A2557BF240085B1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44449D8D2557BF240085B1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		44449D8F2557BF240085B1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44620E102557C3990066EA63 /* YouTubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeData.swift; sourceTree = "<group>"; };
+		44620E142557C49B0066EA63 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		44620E1C2557C6620066EA63 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		44620E212557C7380066EA63 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		44620E312557C8DF0066EA63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
+		455267C0BFC293BBF5CA6E92 /* Pods_TrainTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA6D90092D34B5F08C62B6A /* Pods_TrainTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				44449D802557BF220085B1BB /* TrainTube */,
+				44620E312557C8DF0066EA63 /* Info.plist */,
 				44449D7F2557BF220085B1BB /* Products */,
+				DC931A0D495B91A94055B82C /* Pods */,
+				A04774C0DEF646A3837D90AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +72,59 @@
 		44449D802557BF220085B1BB /* TrainTube */ = {
 			isa = PBXGroup;
 			children = (
-				44449D812557BF220085B1BB /* AppDelegate.swift */,
-				44449D832557BF220085B1BB /* SceneDelegate.swift */,
-				44449D852557BF220085B1BB /* ViewController.swift */,
-				44449D872557BF220085B1BB /* Main.storyboard */,
-				44449D8A2557BF240085B1BB /* Assets.xcassets */,
-				44449D8C2557BF240085B1BB /* LaunchScreen.storyboard */,
-				44449D8F2557BF240085B1BB /* Info.plist */,
+				44620E0F2557C3790066EA63 /* Model */,
+				44620E0E2557C3720066EA63 /* View */,
+				44620E0C2557C3640066EA63 /* Controller */,
 			);
 			path = TrainTube;
+			sourceTree = "<group>";
+		};
+		44620E0C2557C3640066EA63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44449D852557BF220085B1BB /* ViewController.swift */,
+				44620E212557C7380066EA63 /* TableViewController.swift */,
+				44620E1C2557C6620066EA63 /* WebViewController.swift */,
+				44449D832557BF220085B1BB /* SceneDelegate.swift */,
+				44449D812557BF220085B1BB /* AppDelegate.swift */,
+				44620E142557C49B0066EA63 /* TitleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44620E0E2557C3720066EA63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44449D8A2557BF240085B1BB /* Assets.xcassets */,
+				44449D8C2557BF240085B1BB /* LaunchScreen.storyboard */,
+				44449D872557BF220085B1BB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44620E0F2557C3790066EA63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44620E102557C3990066EA63 /* YouTubeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A04774C0DEF646A3837D90AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455267C0BFC293BBF5CA6E92 /* Pods_TrainTube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC931A0D495B91A94055B82C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16A80102EE8D99C27BCFC424 /* Pods-TrainTube.debug.xcconfig */,
+				2BE83EDA40BDE4438DD6A061 /* Pods-TrainTube.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44449D922557BF240085B1BB /* Build configuration list for PBXNativeTarget "TrainTube" */;
 			buildPhases = (
+				3000F95620250B35C29323AE /* [CP] Check Pods Manifest.lock */,
 				44449D7A2557BF220085B1BB /* Sources */,
 				44449D7B2557BF220085B1BB /* Frameworks */,
 				44449D7C2557BF220085B1BB /* Resources */,
+				1BD77967AB14CF65B0BC8384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +194,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BD77967AB14CF65B0BC8384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainTube/Pods-TrainTube-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainTube/Pods-TrainTube-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainTube/Pods-TrainTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3000F95620250B35C29323AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44449D7A2557BF220085B1BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44449D862557BF220085B1BB /* ViewController.swift in Sources */,
+				44620E222557C7380066EA63 /* TableViewController.swift in Sources */,
 				44449D822557BF220085B1BB /* AppDelegate.swift in Sources */,
 				44449D842557BF220085B1BB /* SceneDelegate.swift in Sources */,
+				44620E112557C3990066EA63 /* YouTubeData.swift in Sources */,
+				44620E1D2557C6620066EA63 /* WebViewController.swift in Sources */,
+				44620E152557C49B0066EA63 /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +391,13 @@
 		};
 		44449D932557BF240085B1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A80102EE8D99C27BCFC424 /* Pods-TrainTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJAKUZ6524;
-				INFOPLIST_FILE = TrainTube/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +405,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumieMiyata.TrainTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		44449D942557BF240085B1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE83EDA40BDE4438DD6A061 /* Pods-TrainTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJAKUZ6524;
-				INFOPLIST_FILE = TrainTube/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumieMiyata.TrainTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
