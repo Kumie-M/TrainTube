@@ -1,0 +1,6 @@
+framework module Pods_TrainTube {
+  umbrella header "Pods-TrainTube-umbrella.h"
+
+  export *
+  module * { export * }
+}
